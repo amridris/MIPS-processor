@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  3 09:22:57 2019
+# Process ID: 6834
+# Current directory: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.sim/sim_1/behav/xsim/xsim.dir/fpga_top_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.sim/sim_1/behav/xsim/xsim.dir/fpga_top_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.sim/sim_1/behav/xsim/xsim.dir/fpga_top_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Dec  3 09:22:58 2019. For additional details about this file, please refer to the WebTalk help file at /home/amer/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec  3 09:22:58 2019...

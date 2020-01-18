@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  3 09:39:57 2019
+# Process ID: 21078
+# Current directory: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.runs/impl_1
+# Command line: vivado -log fpga_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fpga_top.tcl -notrace
+# Log file: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.runs/impl_1/fpga_top.vdi
+# Journal file: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source fpga_top.tcl -notrace

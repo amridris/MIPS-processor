@@ -1,0 +1,1011 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  3 09:38:20 2019
+# Process ID: 14826
+# Current directory: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.runs/synth_1
+# Command line: vivado -log fpga_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fpga_top.tcl
+# Log file: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.runs/synth_1/fpga_top.vds
+# Journal file: /home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source fpga_top.tcl -notrace
+Command: synth_design -top fpga_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14842 
+WARNING: [Synth 8-6901] identifier 'DATA_WIDTH' is used before its declaration [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/CMP.v:24]
+WARNING: [Synth 8-6901] identifier 'DATA_WIDTH' is used before its declaration [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/CMP.v:25]
+WARNING: [Synth 8-2507] parameter declaration becomes local in CU with formal parameter declaration list [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:21]
+WARNING: [Synth 8-6901] identifier 'DATA_WIDTH' is used before its declaration [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplier.v:24]
+WARNING: [Synth 8-6901] identifier 'DATA_WIDTH' is used before its declaration [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplier.v:25]
+WARNING: [Synth 8-6901] identifier 'DATA_WIDTH' is used before its declaration [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplier.v:26]
+WARNING: [Synth 8-6901] identifier 'DATA_WIDTH' is used before its declaration [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Register.v:26]
+WARNING: [Synth 8-6901] identifier 'DATA_WIDTH' is used before its declaration [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Register.v:27]
+WARNING: [Synth 8-6901] identifier 'alu_outM' is used before its declaration [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/mips_pipelined.v:114]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1711.773 ; gain = 156.684 ; free physical = 1798 ; free virtual = 5769
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fpga_top' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fpga_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_gen' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/clk_gen.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'clk_gen' (1#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/clk_gen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'button_debouncer' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/button_debouncer.v:1]
+	Parameter depth bound to: 16 - type: integer 
+	Parameter history_max bound to: 65535 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'button_debouncer' (2#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/button_debouncer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/mux4.v:4]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/mux4.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (3#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/mux4.v:4]
+WARNING: [Synth 8-689] width (48) of port connection 'c' does not match port width (32) of module 'mux4' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fpga_top.v:84]
+WARNING: [Synth 8-689] width (16) of port connection 'y' does not match port width (32) of module 'mux4' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fpga_top.v:86]
+INFO: [Synth 8-6157] synthesizing module 'system' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/system.v:3]
+INFO: [Synth 8-6157] synthesizing module 'imem' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/imem.v:1]
+INFO: [Synth 8-3876] $readmem data file 'new.dat' is read successfully [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/imem.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'imem' (4#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/imem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mips_pipelined' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/mips_pipelined.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/mux2.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (5#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/mux2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dreg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/dreg.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dreg' (6#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/dreg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adder' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (7#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'D_Stage_Reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/D_Stage_Reg.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'D_Stage_Reg' (8#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/D_Stage_Reg.v:4]
+INFO: [Synth 8-6157] synthesizing module 'controlunit' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/controlunit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'maindec' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/maindec.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'maindec' (9#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/maindec.v:1]
+INFO: [Synth 8-6157] synthesizing module 'auxdec' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/auxdec.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'auxdec' (10#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/auxdec.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'controlunit' (11#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/controlunit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (12#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'signext' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/signext.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (13#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/signext.v:1]
+INFO: [Synth 8-6157] synthesizing module 'E_Stage_Reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/E_Stage_Reg.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'E_Stage_Reg' (14#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/E_Stage_Reg.v:4]
+INFO: [Synth 8-6157] synthesizing module 'alu' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v:13]
+WARNING: [Synth 8-567] referenced signal 'shamt' should be on the sensitivity list [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (15#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v:1]
+WARNING: [Synth 8-7023] instance 'alu' of module 'alu' has 8 connections declared, but only 5 given [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/mips_pipelined.v:363]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/mux2.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (15#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/mux2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mult_inf' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/mult_inf.v:5]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mult_inf' (16#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/mult_inf.v:5]
+INFO: [Synth 8-6157] synthesizing module 'M_Stage_Reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/M_Stage_Reg.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'M_Stage_Reg' (17#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/M_Stage_Reg.v:5]
+INFO: [Synth 8-6157] synthesizing module 'HiLo_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/HiLo_reg.v:34]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'HiLo_reg' (18#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/HiLo_reg.v:34]
+INFO: [Synth 8-6157] synthesizing module 'W_Stage_Reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/W_Stage_Reg.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'W_Stage_Reg' (19#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/W_Stage_Reg.v:5]
+WARNING: [Synth 8-3848] Net wd_dmM in module/entity mips_pipelined does not have driver. [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/mips_pipelined.v:128]
+WARNING: [Synth 8-3848] Net rd3 in module/entity mips_pipelined does not have driver. [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/mips_pipelined.v:15]
+WARNING: [Synth 8-3848] Net jrE in module/entity mips_pipelined does not have driver. [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/mips_pipelined.v:102]
+INFO: [Synth 8-6155] done synthesizing module 'mips_pipelined' (20#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/mips_pipelined.v:5]
+INFO: [Synth 8-6157] synthesizing module 'dmem' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/dmem.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dmem' (21#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/dmem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fact_top' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'and_fact' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/and_fact.v:23]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'and_fact' (22#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/and_fact.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fact_ad' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_ad.v:23]
+INFO: [Synth 8-226] default block is never used [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_ad.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'fact_ad' (23#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_ad.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fact_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_reg.v:1]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fact_reg' (24#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fact_reg__parameterized0' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_reg.v:1]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fact_reg__parameterized0' (24#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'FSMmult' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/FSMmult.v:1]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'CU' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:2]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter S0 bound to: 3'b000 
+	Parameter S1 bound to: 3'b001 
+	Parameter S2 bound to: 3'b010 
+	Parameter S3 bound to: 3'b011 
+	Parameter S4 bound to: 3'b100 
+INFO: [Synth 8-155] case statement is not full and has no default [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:33]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'CU' (25#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:2]
+INFO: [Synth 8-6157] synthesizing module 'DP' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/DP.v:1]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'CNT' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/CNT.v:1]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CNT' (26#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/CNT.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexer' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplexer.v:23]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexer' (27#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Register' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Register.v:23]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Register' (28#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Register.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CMP' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/CMP.v:23]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CMP' (29#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/CMP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Multiplier' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplier.v:23]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplier' (30#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplier.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DP' (31#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/DP.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'FSMmult' (32#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/FSMmult.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fact_reg__parameterized1' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_reg.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fact_reg__parameterized1' (32#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_reg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fact_res_done_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_res_done_reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fact_res_done_reg' (33#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_res_done_reg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fact_res_err_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_res_err_reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fact_res_err_reg' (34#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_res_err_reg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fact_top' (35#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'gpio_top' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_top.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gpio_ad' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_ad.v:1]
+INFO: [Synth 8-226] default block is never used [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_ad.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_ad' (36#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_ad.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_top' (37#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'system_AD' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/system_AD.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'system_AD' (38#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/system_AD.v:3]
+WARNING: [Synth 8-3848] Net dummy5 in module/entity system does not have driver. [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/system.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'system' (39#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/system.v:3]
+INFO: [Synth 8-6157] synthesizing module 'hex_to_7seg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/hex_to_7seg.v:4]
+INFO: [Synth 8-226] default block is never used [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/hex_to_7seg.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'hex_to_7seg' (40#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/hex_to_7seg.v:4]
+INFO: [Synth 8-6157] synthesizing module 'led_mux' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/led_mux.v:1]
+INFO: [Synth 8-226] default block is never used [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/led_mux.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'led_mux' (41#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/led_mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'fpga_top' (42#1) [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fpga_top.v:23]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[29]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[25]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[24]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[23]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[22]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[21]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[20]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[19]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[18]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[17]
+WARNING: [Synth 8-3331] design system_AD has unconnected port A[16]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[31]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[30]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[29]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[28]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[27]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[26]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[25]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[24]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[23]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[22]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[21]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[20]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[19]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[18]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[17]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[16]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[15]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[14]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[13]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[12]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[11]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[10]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[9]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[8]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[7]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[6]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[5]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[4]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[3]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[2]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[1]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1745.680 ; gain = 190.590 ; free physical = 1825 ; free virtual = 5797
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1763.492 ; gain = 208.402 ; free physical = 1824 ; free virtual = 5795
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1763.492 ; gain = 208.402 ; free physical = 1824 ; free virtual = 5795
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/constrs_1/new/FPGA_top.xdc]
+Finished Parsing XDC File [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/constrs_1/new/FPGA_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/constrs_1/new/FPGA_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fpga_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fpga_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1948.148 ; gain = 0.000 ; free physical = 1722 ; free virtual = 5693
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1948.148 ; gain = 0.000 ; free physical = 1722 ; free virtual = 5693
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1799 ; free virtual = 5771
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1799 ; free virtual = 5771
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1799 ; free virtual = 5771
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "rom" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v:19]
+INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'CU'
+WARNING: [Synth 8-327] inferring latch for variable 'y_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v:10]
+WARNING: [Synth 8-327] inferring latch for variable 'hi_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v:19]
+WARNING: [Synth 8-327] inferring latch for variable 'lo_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v:19]
+WARNING: [Synth 8-327] inferring latch for variable 'load_cnt_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NS_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:95]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NS_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:95]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      S0 |                              001 |                              000
+                      S1 |                              010 |                              001
+                      S2 |                              100 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'one-hot' in module 'CU'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NS_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:95]
+WARNING: [Synth 8-327] inferring latch for variable 'cnt_en_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:36]
+WARNING: [Synth 8-327] inferring latch for variable 'load_reg_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:38]
+WARNING: [Synth 8-327] inferring latch for variable 'buf_oe_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:39]
+WARNING: [Synth 8-327] inferring latch for variable 'done_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'error_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v:41]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1790 ; free virtual = 5762
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 5     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 30    
+	               16 Bit    Registers := 2     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 31    
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 13    
+	   4 Input     32 Bit        Muxes := 5     
+	  33 Input     32 Bit        Muxes := 1     
+	   9 Input     32 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  14 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clk_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module button_debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module mux4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module imem 
+Detailed RTL Component Info : 
++---Muxes : 
+	  33 Input     32 Bit        Muxes := 1     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module dreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module D_Stage_Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module maindec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+Module auxdec 
+Detailed RTL Component Info : 
++---Muxes : 
+	  14 Input      8 Bit        Muxes := 1     
+Module controlunit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module E_Stage_Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 6     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   9 Input     32 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 2     
+Module mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module mult_inf 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module M_Stage_Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 7     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
+Module HiLo_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module W_Stage_Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 6     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
+Module fact_ad 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 2     
+Module fact_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module fact_reg__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module CU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 7     
+Module Multiplexer 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Register 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module Multiplier 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                32x32  Multipliers := 1     
+Module fact_reg__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module fact_res_done_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module fact_res_err_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module gpio_ad 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 2     
+Module system_AD 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module led_mux 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'E_Stage_Reg/jal_wd_muxE_reg' into 'E_Stage_Reg/jal_wa_muxE_reg' [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/E_Stage_Reg.v:77]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/mult_inf.v:13]
+DSP Report: Generating DSP mult/out0, operation Mode is: A*B.
+DSP Report: operator mult/out0 is absorbed into DSP mult/out0.
+DSP Report: operator mult/out0 is absorbed into DSP mult/out0.
+DSP Report: Generating DSP mult/out0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mult/out0 is absorbed into DSP mult/out0.
+DSP Report: operator mult/out0 is absorbed into DSP mult/out0.
+DSP Report: Generating DSP mult/out0, operation Mode is: A*B.
+DSP Report: operator mult/out0 is absorbed into DSP mult/out0.
+DSP Report: operator mult/out0 is absorbed into DSP mult/out0.
+DSP Report: Generating DSP mult/out0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mult/out0 is absorbed into DSP mult/out0.
+DSP Report: operator mult/out0 is absorbed into DSP mult/out0.
+DSP Report: Generating DSP alu/lo0, operation Mode is: A*B.
+DSP Report: operator alu/lo0 is absorbed into DSP alu/lo0.
+DSP Report: operator alu/lo0 is absorbed into DSP alu/lo0.
+DSP Report: Generating DSP alu/lo0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator alu/lo0 is absorbed into DSP alu/lo0.
+DSP Report: operator alu/lo0 is absorbed into DSP alu/lo0.
+DSP Report: Generating DSP alu/lo0, operation Mode is: A*B.
+DSP Report: operator alu/lo0 is absorbed into DSP alu/lo0.
+DSP Report: operator alu/lo0 is absorbed into DSP alu/lo0.
+DSP Report: Generating DSP alu/lo0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator alu/lo0 is absorbed into DSP alu/lo0.
+DSP Report: operator alu/lo0 is absorbed into DSP alu/lo0.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplier.v:30]
+DSP Report: Generating DSP fact/dataP/multiply/out, operation Mode is: A2*B2.
+DSP Report: register fact/dataP/product_reg/out_reg is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: register fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: operator fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: operator fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: Generating DSP fact/dataP/multiply/out, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register fact/dataP/down_counter/out_reg is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: register fact/dataP/product_reg/out_reg is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: operator fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: operator fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: Generating DSP fact/dataP/multiply/out, operation Mode is: A2*B2.
+DSP Report: register fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: register fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: operator fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: operator fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: Generating DSP fact/dataP/multiply/out, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register fact/dataP/down_counter/out_reg is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: register fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: operator fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+DSP Report: operator fact/dataP/multiply/out is absorbed into DSP fact/dataP/multiply/out.
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[31]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[30]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[29]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[28]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[27]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[26]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[25]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[24]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[23]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[22]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[21]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[20]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[19]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[18]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[17]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[16]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[15]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[14]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[13]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[12]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[11]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[10]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[9]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[8]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[7]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[6]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[5]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[4]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[3]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[2]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[1]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port rd3[0]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port ra3[4]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port ra3[3]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port ra3[2]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port ra3[1]
+WARNING: [Synth 8-3331] design mips_pipelined has unconnected port ra3[0]
+WARNING: [Synth 8-3331] design imem has unconnected port a[5]
+WARNING: [Synth 8-3331] design fpga_top has unconnected port button_clk
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[1]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[24]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[26]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[25]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[27]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[22]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[24]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[23]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[25]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[20]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[22]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[22]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_20_16_reg[4]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[21]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[23]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[18]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[20]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[20]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_20_16_reg[2]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[19]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[21]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[21]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_20_16_reg[3]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[16]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[18]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[18]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_20_16_reg[0]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[17]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[19]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[19]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_20_16_reg[1]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[16]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[3]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[17]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[14]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[1]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[15]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[2]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[12]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[10]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[13]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[0]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[10]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[8]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[11]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[9]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[8]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[6]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[9]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[7]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[7]' (FDC_1) to 'system/MIPS/E_Stage_Reg/sext_immE_reg[5]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[0]' (FDC_1) to 'system/MIPS/D_Stage_Reg/instrD_reg[30]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/jtaM_reg[1]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[0]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[24]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[26]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[25]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[27]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[22]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[24]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[23]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[25]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[20]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[22]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[21]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[23]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[18]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[20]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[19]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[21]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[16]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[18]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[17]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[19]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/jtaM_reg[17]' (FDC_1) to 'system/MIPS/M_Stage_Reg/addressM_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/jtaM_reg[12]' (FDC_1) to 'system/MIPS/M_Stage_Reg/addressM_reg[10]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/jtaM_reg[10]' (FDC_1) to 'system/MIPS/M_Stage_Reg/addressM_reg[8]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/jtaM_reg[11]' (FDC_1) to 'system/MIPS/M_Stage_Reg/addressM_reg[9]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/jtaM_reg[8]' (FDC_1) to 'system/MIPS/M_Stage_Reg/addressM_reg[6]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/jtaM_reg[9]' (FDC_1) to 'system/MIPS/M_Stage_Reg/addressM_reg[7]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/jtaM_reg[0]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[30]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/W_Stage_Reg/jtaW_reg[1]' (FDC_1) to 'system/MIPS/W_Stage_Reg/jtaW_reg[0]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[7]' (FDC_1) to 'system/MIPS/E_Stage_Reg/shamtE_reg[1]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[6]' (FDC_1) to 'system/MIPS/E_Stage_Reg/shamtE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[5]' (FDC_1) to 'system/MIPS/E_Stage_Reg/sext_immE_reg[5]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[4]' (FDC_1) to 'system/MIPS/E_Stage_Reg/sext_immE_reg[4]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[16]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[24]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[8]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[8]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[28]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[12]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[1]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[20]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[4]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[6]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[30]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[14]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[3]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[22]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[6]' (FDC_1) to 'system/MIPS/E_Stage_Reg/shamtE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[26]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[10]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[10]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[18]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[2]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[4]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[31]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[15]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[23]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[7]' (FDC_1) to 'system/MIPS/E_Stage_Reg/shamtE_reg[1]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[27]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[11]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[0]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[19]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[3]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[5]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[29]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[13]' (FDC_1) to 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[2]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[21]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[25]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[9]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[9]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[17]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[0]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[2]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[0]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[2]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/sext_immE_reg[1]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/addressE_reg[1]' (FDC_1) to 'system/MIPS/E_Stage_Reg/jtaE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/shamtE_reg[4]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[10]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/shamtE_reg[3]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[9]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/shamtE_reg[2]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[8]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[4]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[2]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/jtaE_reg[5]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/D_Stage_Reg/instrD_reg[7]' (FDC_1) to 'system/MIPS/D_Stage_Reg/instrD_reg[4]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[0]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[11]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[1]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[12]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[2]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[13]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[3]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[14]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/E_Stage_Reg/instrE_15_11_reg[4]' (FDC_1) to 'system/MIPS/E_Stage_Reg/addressE_reg[15]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/W_Stage_Reg/jtaW_reg[0]' (FDC_1) to 'system/MIPS/M_Stage_Reg/addressM_reg[30]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[5]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[7]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[4]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\system/fact/fact/control/buf_oe_reg )
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[0]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[2]'
+INFO: [Synth 8-3886] merging instance 'system/MIPS/M_Stage_Reg/addressM_reg[1]' (FDC_1) to 'system/MIPS/M_Stage_Reg/jtaM_reg[3]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\system/MIPS/D_Stage_Reg/instrD_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\system/MIPS/M_Stage_Reg/jtaM_reg[22] )
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[31]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[30]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[29]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[28]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[27]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[26]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[25]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[24]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[23]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[22]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[21]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[20]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[19]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[18]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[17]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[16]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[15]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[14]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[13]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[12]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[11]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[10]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[9]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[8]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[7]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[6]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[5]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[4]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[3]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[2]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[1]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/hi_reg[0]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[31]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[30]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[29]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[28]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[27]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[26]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[25]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[24]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[23]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[22]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[21]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[20]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[19]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[18]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[17]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[16]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[15]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[14]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[13]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[12]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[11]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[10]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[9]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[8]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[7]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[6]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[5]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[4]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[3]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[2]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[1]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/MIPS/alu/lo_reg[0]) is unused and will be removed from module fpga_top.
+WARNING: [Synth 8-3332] Sequential element (system/fact/fact/control/buf_oe_reg) is unused and will be removed from module fpga_top.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\system/MIPS/E_Stage_Reg/hilo_mux_ctrlE_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\system/MIPS/E_Stage_Reg/hilo_mux_ctrlE_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\system/MIPS/E_Stage_Reg/hilo_mux_ctrlE_reg[0] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1769 ; free virtual = 5745
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object             | Inference | Size (Depth x Width) | Primitives      | 
++------------+------------------------+-----------+----------------------+-----------------+
+|fpga_top    | system/MIPS/rf/rf_reg  | Implied   | 32 x 32              | RAM32M x 12     | 
+|fpga_top    | system/dMemory/ram_reg | Implied   | 64 x 32              | RAM64X1S x 32   | 
++------------+------------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++---------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name    | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mips_pipelined | A*B              | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mips_pipelined | (PCIN>>17)+A*B   | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mips_pipelined | A*B              | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|mips_pipelined | (PCIN>>17)+A*B   | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|alu            | A*B              | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|alu            | (PCIN>>17)+A*B   | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|alu            | A*B              | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|alu            | (PCIN>>17)+A*B   | 18     | 16     | -      | -      | 47     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|fact_top       | A2*B2            | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|fact_top       | (PCIN>>17)+A2*B2 | 16     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|fact_top       | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|fact_top       | (PCIN>>17)+A2*B2 | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++---------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1624 ; free virtual = 5599
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1621 ; free virtual = 5597
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+------------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object             | Inference | Size (Depth x Width) | Primitives      | 
++------------+------------------------+-----------+----------------------+-----------------+
+|fpga_top    | system/MIPS/rf/rf_reg  | Implied   | 32 x 32              | RAM32M x 12     | 
+|fpga_top    | system/dMemory/ram_reg | Implied   | 64 x 32              | RAM64X1S x 32   | 
++------------+------------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1617 ; free virtual = 5592
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1617 ; free virtual = 5593
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1617 ; free virtual = 5593
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1617 ; free virtual = 5593
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1617 ; free virtual = 5593
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1617 ; free virtual = 5593
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1617 ; free virtual = 5593
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     3|
+|2     |CARRY4   |    55|
+|3     |DSP48E1  |     3|
+|4     |LUT1     |     2|
+|5     |LUT2     |   115|
+|6     |LUT3     |   105|
+|7     |LUT4     |   144|
+|8     |LUT5     |   195|
+|9     |LUT6     |   237|
+|10    |MUXF7    |    27|
+|11    |RAM32M   |    12|
+|12    |RAM64X1S |    32|
+|13    |FDCE     |   402|
+|14    |FDPE     |     1|
+|15    |FDRE     |   117|
+|16    |LD       |    40|
+|17    |IBUF     |     7|
+|18    |OBUF     |    33|
++------+---------+------+
+
+Report Instance Areas: 
++------+------------------------+---------------------------+------+
+|      |Instance                |Module                     |Cells |
++------+------------------------+---------------------------+------+
+|1     |top                     |                           |  1530|
+|2     |  bd_rst                |button_debouncer           |    20|
+|3     |  clk_gen               |clk_gen                    |    56|
+|4     |  led_mux               |led_mux                    |    17|
+|5     |  system                |system                     |  1394|
+|6     |    MIPS                |mips_pipelined             |   910|
+|7     |      D_Stage_Reg       |D_Stage_Reg                |   114|
+|8     |      E_Stage_Reg       |E_Stage_Reg                |   434|
+|9     |      M_Stage_Reg       |M_Stage_Reg                |   132|
+|10    |      W_Stage_Reg       |W_Stage_Reg                |    84|
+|11    |      alu               |alu                        |    44|
+|12    |      jal_wd_mux        |mux2                       |    32|
+|13    |      pc_plus4          |adder                      |     2|
+|14    |      pc_plus_br        |adder_3                    |     2|
+|15    |      pc_reg            |dreg                       |    30|
+|16    |      rf                |regfile                    |    33|
+|17    |    dMemory             |dmem                       |    32|
+|18    |    fact                |fact_top                   |   272|
+|19    |      fact              |FSMmult                    |   226|
+|20    |        control         |CU                         |    84|
+|21    |        dataP           |DP                         |   142|
+|22    |          down_counter  |CNT                        |    55|
+|23    |          multiply      |Multiplier                 |    53|
+|24    |          product_reg   |Register                   |    34|
+|25    |      fact_res_done_reg |fact_res_done_reg          |     1|
+|26    |      fact_res_err_reg  |fact_res_err_reg           |     1|
+|27    |      go_pulse_reg      |fact_reg__parameterized0   |     1|
+|28    |      go_reg            |fact_reg__parameterized0_1 |     1|
+|29    |      n_reg             |fact_reg                   |     8|
+|30    |      result_reg        |fact_reg__parameterized1_2 |    34|
+|31    |    gpio                |gpio_top                   |   180|
+|32    |      gpo1_reg          |fact_reg__parameterized1   |    37|
+|33    |      gpo2_reg          |fact_reg__parameterized1_0 |   143|
++------+------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1617 ; free virtual = 5593
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 116 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1948.148 ; gain = 208.402 ; free physical = 1685 ; free virtual = 5661
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1948.148 ; gain = 393.059 ; free physical = 1685 ; free virtual = 5661
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 169 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1963.094 ; gain = 0.000 ; free physical = 1633 ; free virtual = 5609
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 84 instances were transformed.
+  LD => LDCE: 40 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+225 Infos, 176 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1963.094 ; gain = 561.328 ; free physical = 1732 ; free virtual = 5707
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1963.094 ; gain = 0.000 ; free physical = 1732 ; free virtual = 5707
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/amer/Downloads/CMPE-140-master/CMPE-140-master/A8_Pipelined_MIPS_Processor/Pipelined_MIPS_SoC/Pipelined_MIPS_SoC.runs/synth_1/fpga_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fpga_top_utilization_synth.rpt -pb fpga_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  3 09:38:55 2019...

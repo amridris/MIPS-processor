@@ -1,0 +1,51 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/CMP.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/CNT.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/CU.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/DP.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/D_Stage_Reg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/E_Stage_Reg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/FSMmult.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/HiLo_reg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/M_Stage_Reg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplexer.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Multiplier.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/factorial/Register.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/W_Stage_Reg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/adder.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/alu.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/and_fact.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/auxdec.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/button_debouncer.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/clk_gen.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/controlunit.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/dmem.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/dreg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_ad.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_res_done_reg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_res_err_reg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/fact_top.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fpga_top.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_ad.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_reg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/gpio_top.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/hex_to_7seg.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/imem.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/led_mux.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/control_unit/maindec.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/Pipeline_MIPS/mips_pipelined.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/mult_inf.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/mux2.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/fact/mux4.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/regfile.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/MIPS/datapath/signext.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/system.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sources_1/new/FPGA/System/system_AD.v" \
+"../../../../Pipelined_MIPS_SoC.srcs/sim_1/fpga_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
